@@ -131,7 +131,7 @@ const ProfileScreen = ({navigation, route}) => {
     <Text>Name: {item.firstname} {item.lastname}</Text>
     <Text>Username: {item.username}</Text>
     <Text>Website: {item.website}</Text>
-    <Text>Image: </Text><Image source={{uri: item.image}}
+    <Text>Image: </Text><Image source={{uri: item.image+item.id}}
                                       style={{width: 400, height: 400}}/>
     </View>
 };
